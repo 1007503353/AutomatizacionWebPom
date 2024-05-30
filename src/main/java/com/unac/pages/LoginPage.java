@@ -6,7 +6,7 @@ import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.By;
 
-@DefaultUrl("http://demo.guru99.com/V4/")
+@DefaultUrl("https://parabank.parasoft.com/parabank/index.htm")
 public class LoginPage extends PageObject {
     By userName =By.name("uid");
     By password =By.name("password");

@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import static org.junit.Assert.assertEquals;
 
 public class HomePage extends PageObject {
-By title = By.xpath("//*[text()=\'Manger Id : mngr573130\']");
+By title = By.xpath("//*[text()=\'Manger Id : haiber2001\']");
 
 public void validateTitle(String strTitle)
 {
